@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musical App</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_info_list">InfoListActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+</resources>
