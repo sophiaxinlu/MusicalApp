@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:textAlignment="center"
-        android:text="This is the Store page."
+        android:text="@string/storeActiviyIntro"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

@@ -4,4 +4,7 @@
     <string name="title_activity_store">StoreActivity</string>
     <string name="title_activity_info_list">InfoListActivity</string>
     <string name="title_activity_search">SearchActivity</string>
+    <string name="mainPageIntro">This is the main page of the musical app which shows a list of playable albums. I will choose Spotify Web API or SoundCloud API to load the albums and artists information.</string>
+    <string name="nowPlayingIntro">This is the now playing page. It would look a music player with a album picture in the middle of the screen. I will be using android MediaPlayer API to stream the track. More information about this API https://developer.android.com/guide/topics/media/mediaplayer.html.</string>
+    <string name="storeActiviyIntro">This is the store page. User can choose songs or albums they want to purchase. I am choosing In-app Billing API to managed payment flow. Another option is Stripe. More information about Stripe: https://stripe.com/docs/mobile/android.</string>
 </resources>

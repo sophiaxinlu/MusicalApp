@@ -22,6 +22,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
+                android:id="@+id/pageTitle"
+                android:background="#f1f1f1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:text="@string/mainPageIntro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:background="#cccccc"
                 android:textAlignment="center"
                 android:text="Category 1"
@@ -127,18 +140,21 @@
                 android:text="..."
                 android:layout_marginTop="10dp"/>
 
+
+
         </LinearLayout>
     </ScrollView>
+
+    <!--this is showing at bottom of the screen-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/nowPlaying"
         android:text="New Playing"
         android:textAlignment="center"
-        android:background="#000000"
-        android:textColor="#ffffff"
+        android:background="#999999"
+        android:textColor="#000000"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
-
 </RelativeLayout>
